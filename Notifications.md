@@ -99,6 +99,9 @@ Depends on sensor type
   * `0x05` conflict. New action received while other action is still running
   * `0x0a` action finished
   * `0x0e` ??
+  * `0x0c` action coudn't be completed
+
+`0x0c` have been encountered when the interactive motor coudn't complette an angle turn.
   
  
 
